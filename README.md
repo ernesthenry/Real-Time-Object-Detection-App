@@ -1,9 +1,10 @@
-# Sharingan - Real-Time Object Detection App
+# Real-Time Object Detection App
 
 **Author:** Ernest Henry  
+**GitHub:** github.com/ernesthenry
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/shashwatah/sharingan/main/assets/images/logos/sharingan-fill.png" alt="Sharingan" width="200">
+    <img src="assets/images/logo.png" alt="Object Detection App" width="200">
 </p>
 
 <h4 align="center">
@@ -20,7 +21,7 @@ A Real-Time object detection app, built with <a href="https://www.electronjs.org
 
 ## Overview
 
-Sharingan is a desktop application that performs real-time object detection using machine learning models running entirely in the browser. Built with modern web technologies, it demonstrates the power of client-side AI inference without requiring external servers or APIs.
+This desktop application performs real-time object detection using machine learning models running entirely in the browser. Built with modern web technologies, it demonstrates the power of client-side AI inference without requiring external servers or APIs.
 
 ### Key Features
 
@@ -79,8 +80,8 @@ npm --version
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/ernesthenry/sharingan.git
-cd sharingan
+git clone https://github.com/ernesthenry/object-detection-app.git
+cd object-detection-app
 ```
 
 2. **Install Dependencies**
@@ -127,7 +128,7 @@ The packaged applications will be available in the `dist/` directory.
 ## Project Structure
 
 ```
-sharingan/
+object-detection-app/
 ├── src/
 │   ├── main.js              # Electron main process
 │   ├── renderer.js          # Renderer process logic
